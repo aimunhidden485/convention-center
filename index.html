@@ -56,20 +56,20 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row bg-warning">
+                        <div class="row">
                             <div class="col-lg-12">
-                                <img src="./images/banner.png" class="d-block w-100 bg-img img-fluid" alt="...">
+                                <img src="./images/banner.png" class="d-block w-100 bg-img" alt="...">
                                 <div
                                     class="carousel-caption badge text-wrap d-flex flex-column justify-content-center align-items-center">
                                     <h5>Your next event destination</h5>
                                     <p>Some representative placeholder content for the first slide.</p>
-                                    <button class="button-clr">Book Now</button>
+                                    <button class="button-clr rounded-2 bold-text">Book Now</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/banner.png" class="d-block w-100" alt="...">
+                        <img src="./images/banner.png" class="d-block w-100 slider-image" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
@@ -120,19 +120,25 @@
                             <h2 class="bold-text">$300</h2>
                             <h3 class="bold-text">Business Fair</h3>
                             <p>For most business event like business fair</p>
-                            <p><i class="fas fa-check"></i> limited space access</p>
-                            <p><i class="fas fa-check"></i> limited space access</p>
-                            <p><i class="fas fa-check"></i> limited space access</p>
-                            <p><i class="fas fa-check"></i> limited space access</p>
-                            <p><i class="fas fa-check"></i> limited space access</p>
-                            <p><i class="fas fa-check"></i> limited space access</p>
+                            <p><i class="fas fa-check"></i>  limited space access</p>
+                            <p><i class="fas fa-check"></i>  limited space access</p>
+                            <p><i class="fas fa-check"></i>  limited space access</p>
+                            <p><i class="fas fa-check"></i>  limited space access</p>
+                            <p><i class="fas fa-check"></i>  limited space access</p>
+                            <p><i class="fas fa-check"></i>  limited space access</p>
                             <div class="d-flex align-items-center justify-content-center h-25"><button
                                     class="border border-white rounded-pill choose-btn">Choose Plan</button></div>
                         </div>
                      </div>
                      <div class="col-lg-3">
-                        <div class="pt-3 pb-5 ps-3 pe-3 blue-card border mt-0 shadow-lg">
-                            <div class="hot">hot</div>
+                        <div class="pt-3 pb-5 ps-3 pe-3 blue-card border mt-0 shadow-lg position-relative">
+                           
+                                
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                hot
+                                  <span class="visually-hidden">unread messages</span>
+                                </span>
+                              </button>
                             <h2 class="bold-text">$300</h2>
                             <h3 class="bold-text">Business Fair</h3>
                             <p>For most business event like business fair</p>
@@ -180,8 +186,75 @@
              </div>
 
         </section>
-    </main>
+        <!---------------------------------------------------
+             package section done------------------------------------------ -->
 
+        <section class="faq container mt-5 mb-5">
+            <h1 class="text-center mb-3 bold-text">Frequently Asked Questions</h1>
+         <div class="row gx-3 gy-5 d-flex align-items-center">
+            <div class="col-lg-6">
+               <div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed bold-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          What's the difference between event design and event planning?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed bold-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          How early do we need to start planning an event?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed bold-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          What is your refund and cancellation policy?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed bold-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          How do you keep budgets on track?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="./images/wedding.png" alt="">
+            </div>
+         </div>
+        </section>
+        <!------------------------------------- faq section added ------------------------------------->
+    </main>
+<footer>
+  <div class="row">
+    <div class="col-lg-7">
+<p>&co</p>
+    </div>
+    <div class="col-lg-5">
+
+    </div>
+  </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
